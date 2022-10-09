@@ -1,7 +1,6 @@
-@import 'header';
-@import 'banner';
-@import 'search';
-
-* {
-    font-family: 'Open Sans', sans-serif;
-}
+@import 'base/main';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'header/header';
+@import 'header/navbar';
+@import 'section/main';

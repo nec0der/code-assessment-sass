@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header {
   padding: 0 25px;
   min-height: 70px;
@@ -309,9 +313,5 @@
 
 .search[type="search"]::placeholder {
   color: #bbb;
-}
-
-* {
-  font-family: 'Open Sans', sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,12 @@
+.header {
+    padding: 0 25px;
+    min-height: 70px;
+    display: flex;
+    align-items: flex-end;
+
+    &__content {
+        flex: 1;
+        border-bottom: 0.5px solid $grey;
+        display: flex;
+    }
+}
