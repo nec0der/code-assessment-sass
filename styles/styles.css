@@ -1,5 +1,4 @@
 .header {
-  height: 70px;
   padding: 0 25px;
   min-height: 70px;
   display: -webkit-box;
@@ -77,6 +76,108 @@
     top: 22px;
     right: 25px;
     font-size: 1rem;
+  }
+}
+
+.banner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #9B9B9B;
+  padding: 25px;
+}
+
+@media screen and (max-width: 688px) {
+  .banner__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.banner__container--left {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .banner__container--left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.banner__container--right {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+@media screen and (max-width: 688px) {
+  .banner__container--right {
+    margin-top: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.banner__container--text {
+  font-size: 72px;
+  line-height: 68px;
+  color: #4A4A4A;
+  width: 605px;
+  text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+  .banner__container--text {
+    text-align: left;
+    width: 425px;
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .banner__container--text {
+    font-size: 50px;
+    line-height: 65px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner__container--img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .banner__container--img {
+    width: 65%;
   }
 }
 
